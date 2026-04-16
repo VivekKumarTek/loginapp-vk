@@ -78,14 +78,14 @@ export const APP_CONSTANTS = {
             LOGINAPP_PATH+"/main.html", LOGINAPP_PATH+"/reset.html", LOGINAPP_PATH+"/initiallogin.html", 
             LOGINAPP_PATH+"/register.html", LOGINAPP_PATH+"/notapproved.html", 
             LOGINAPP_PATH+"/loginroom.html", LOGINAPP_PATH+"/login.html",  LOGINAPP_PATH+"/reroute.html", $$.MONKSHU_CONSTANTS.ERROR_HTML,
-            `${EMBEDDED_APP_PATH}/*.html`],
+            `${EMBEDDED_APP_PATH}/[^/]+\\.html`, `${EMBEDDED_APP_PATH}/pages/[^/]+\\.html`, `${EMBEDDED_APP_PATH}/dialogs/[^/]+\\.html`],
 
         admin:[window.location.origin, LOGINAPP_PATH+"/index.html", LOGINAPP_PATH+"/download.html", 
             LOGINAPP_PATH+"/error.html", LOGINAPP_PATH+"/verify.html", LOGINAPP_PATH+"/main.html", 
             LOGINAPP_PATH+"/reset.html", LOGINAPP_PATH+"/initiallogin.html", LOGINAPP_PATH+"/register.html", 
             LOGINAPP_PATH+"/notapproved.html", LOGINAPP_PATH+"/loginroom.html", LOGINAPP_PATH+"/login.html", LOGINAPP_PATH+"/reroute.html", 
             LOGINAPP_PATH+"/manage.html", $$.MONKSHU_CONSTANTS.ERROR_HTML, 
-            `${EMBEDDED_APP_PATH}/*.html`],
+            `${EMBEDDED_APP_PATH}/[^/]+\\.html`, `${EMBEDDED_APP_PATH}/pages/[^/]+\\.html`, `${EMBEDDED_APP_PATH}/dialogs/[^/]+\\.html`],
 
         guest:[window.location.origin, LOGINAPP_PATH+"/index.html", LOGINAPP_PATH+"/download.html", 
             LOGINAPP_PATH+"/error.html", LOGINAPP_PATH+"/verify.html", LOGINAPP_PATH+"/reset.html", 
